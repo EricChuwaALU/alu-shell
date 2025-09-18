@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '[[:upper:]]*' -exec mv -ut ~/tmp/u {} +
+find . -type f -name '[[:upper:]]*' -exec mv -nt ~/tmp/u {} +
